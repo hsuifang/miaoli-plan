@@ -5,7 +5,8 @@
     "title": "竹南火車站",
     "tags": ["火車", "租車"],
     "content": ["09:10 起點:板橋火車站", "租機車或irent", "放行李"],
-    "startTime": "10:27"
+    "startTime": "10:27",
+    "icon": "train"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "title": "白沙屯媽祖廟",
     "tags": ["吃", "景點"],
     "content": ["吃中餐，J寶寶有推薦", "拜拜", "有時間可以路過好望角"],
-    "startTime": "11:15"
+    "startTime": "11:15",
+    "icon": "tample"
   },
   {
     "id": 3,
@@ -22,7 +24,8 @@
     "tags": ["景點", "經典"],
     "content": ["hsuifang 小時候的回憶", "苗栗迪士尼"],
     "startTime": "12:30",
-    "endTime": "14:00"
+    "endTime": "14:00",
+    "icon": "view"
   },
   {
     "id": 4,
@@ -31,7 +34,8 @@
     "tags": ["景點", "經典"],
     "content": ["看海景", "看地方神社"],
     "startTime": "14:10",
-    "endTime": "15:30"
+    "endTime": "15:30",
+    "icon": "tample2"
   },
   {
     "id": 5,
@@ -40,15 +44,17 @@
     "tags": ["景點", "經典"],
     "content": ["訂位8人 16:00", "選用在地美食", "好拍好吃可以看夕陽"],
     "startTime": "16:00",
-    "endTime": "18:00"
+    "endTime": "18:00",
+    "icon": "cake"
   },
   {
     "id": 6,
     "date": "0309",
     "title": "阿水飯店/福興/龍鳳漁港",
     "tags": ["海鮮", "經典"],
-    "content": ["p醬要暫離", "J老婆可能吃或不吃", "可以外帶去airbnb或內用"],
-    "startTime": "18:30"
+    "content": ["p醬要暫離", "可以外帶去airbnb或內用"],
+    "startTime": "18:30",
+    "icon": "seafood"
   },
   {
     "id": 7,
@@ -56,7 +62,8 @@
     "title": "Airbnb-竹南",
     "tags": ["住"],
     "content": ["喝", "p醬歸來"],
-    "startTime": "20:00"
+    "startTime": "20:00",
+    "icon": "house"
   },
   {
     "id": 8,
@@ -64,7 +71,8 @@
     "title": "Airbnb",
     "tags": ["住", "吃"],
     "content": ["從airbnb起床", "跟P醬說掰掰"],
-    "startTime": "10:00"
+    "startTime": "10:00",
+    "icon": "house"
   },
   {
     "id": 9,
@@ -72,26 +80,29 @@
     "title": "竹南火車站",
     "tags": ["行"],
     "content": [],
-    "startTime": "10:30"
-  },
-  {
-    "id": 9,
-    "date": "0310",
-    "title": "豐富火車站",
-    "tags": ["住", "吃"],
-    "content": ["寄放行李在高鐵", "租 UBIKE"],
-    "startTime": "10:45"
+    "startTime": "10:30",
+    "icon": "train"
   },
   {
     "id": 10,
     "date": "0310",
-    "title": "後龍街上",
+    "title": "豐富火車站",
     "tags": ["住", "吃"],
-    "content": ["隨意吃吃", "我想吃素食麵", "美而美也很好吃", "看市場"],
-    "startTime": "11:20"
+    "content": ["寄放行李在高鐵", "租 UBIKE"],
+    "startTime": "10:45",
+    "icon": "train"
   },
   {
     "id": 11,
+    "date": "0310",
+    "title": "後龍街上",
+    "tags": ["住", "吃"],
+    "content": ["隨意吃吃", "我想吃素食麵", "美而美也很好吃", "看市場"],
+    "startTime": "11:20",
+    "icon": "bicycle"
+  },
+  {
+    "id": 12,
     "date": "0310",
     "title": "後龍",
     "tags": ["住", "吃"],
@@ -105,31 +116,35 @@
       "地主臨機應變... "
     ],
     "startTime": "12:00",
-    "endTime": "16:00"
-  },
-  {
-    "id": 11,
-    "date": "0310",
-    "title": "後龍街上",
-    "tags": ["吃"],
-    "content": ["我思考一下要在哪裡吃東西"],
-    "startTime": "16:00",
-    "endTime": "18:00"
-  },
-  {
-    "id": 12,
-    "date": "0310",
-    "title": "苗栗高鐵站",
-    "tags": ["行"],
-    "content": ["拿行李"],
-    "startTime": "18:24"
+    "endTime": "16:00",
+    "icon": "beach"
   },
   {
     "id": 13,
     "date": "0310",
+    "title": "午餐",
+    "tags": ["吃"],
+    "content": ["我思考一下要在哪裡吃東西"],
+    "startTime": "16:00",
+    "endTime": "18:00",
+    "icon": "bicycle"
+  },
+  {
+    "id": 14,
+    "date": "0310",
+    "title": "苗栗高鐵站",
+    "tags": ["行"],
+    "content": ["拿行李"],
+    "startTime": "18:24",
+    "icon": "railway"
+  },
+  {
+    "id": 15,
+    "date": "0310",
     "title": "板橋高鐵站",
     "tags": ["行"],
     "content": ["掰"],
-    "startTime": "19:04"
+    "startTime": "19:04",
+    "icon": "railway"
   }
 ]
