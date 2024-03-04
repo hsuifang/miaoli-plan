@@ -9,7 +9,7 @@ import "./App.css";
 const Layout = () => (
   <div className="md:h-[100vh] md:overflow-y-hidden">
     <Navigation />
-    <main className="container mx-auto md:py-10">
+    <main className="container mx-auto md:py-10 mb-20 md:mb-0">
       <Outlet />
     </main>
     {/* <Footer /> */}

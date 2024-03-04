@@ -16,7 +16,7 @@ const Home = () => {
       <div className="hidden md:flex md:w-[40%] md:h-[80vh] justify-center">
         <PostCard imgUrl={MainImage} text="2024 協尋大狗狗" />
       </div>
-      <div className="md:h-[80vh] w-full md:w-[60%] md:overflow-y-auto mb-20 md:mb-0">
+      <div className="md:h-[80vh] w-full md:w-[60%] md:overflow-y-auto">
         {Object.entries(info).map(([key, value], index) => (
           <Schedule
             key={key}

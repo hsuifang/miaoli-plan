@@ -34,10 +34,10 @@ const List = [
 const Attention = () => {
   return (
     <div
-      data-testid="home"
+      data-testid="attention"
       className="p-3 md:p-0 flex flex-col md:flex-row md:space-x-8"
     >
-      <div className="md:w-[60%] order-2 md:order-1 max-h-[80vh]">
+      <div className="md:w-[60%] order-2 md:order-1 md:max-h-[80vh]">
         <Gallery />
       </div>
       <div className="md:w-[40%] order-1 md:order-2 shadow-inner p-5 rounded-md bg-gray-50 dark:bg-gray-800 dark:text-white">
@@ -47,7 +47,7 @@ const Attention = () => {
           </h3>
           <ul className="divide-y divide-gray-300 dark:divide-gray-700">
             {List.map((li) => (
-              <li className="pb-3 sm:py-4" key={li.desc}>
+              <li className="py-3 sm:py-4" key={li.desc}>
                 <div className="flex space-x-4">
                   <div className="flex-shrink-0">
                     <img
@@ -57,14 +57,14 @@ const Attention = () => {
                     />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h4 className="text-lg font-bold text-gray-900 truncate dark:text-white">
+                    <h4 className="text-md font-bold text-gray-900 truncate dark:text-white">
                       {li.name}
                     </h4>
                     <ul className="ml-6 list-disc">
                       {li.stuff.map((item) => (
                         <li
                           key={item}
-                          className="text-md text-gray-500  dark:text-gray-400"
+                          className="text-sm text-gray-500  dark:text-gray-400"
                         >
                           {item}
                         </li>

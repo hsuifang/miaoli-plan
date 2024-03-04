@@ -26,7 +26,7 @@ const images = [
 function Gallery() {
   // 3/3/4
   return (
-    <div className="grid md:grid-flow-col grid-cols-2 md:grid-rows-4 md:grid-cols-3 gap-4 h-full">
+    <div className="grid md:grid-flow-col grid-cols-2 md:grid-rows-4 md:grid-cols-3 gap-4 md:h-full">
       {images.map(({ src, alt, rowSpan }) => (
         <div className={rowSpan} key={alt}>
           <img
