@@ -57,14 +57,14 @@ const Attention = () => {
                     />
                   </div>
                   <div className="flex-1 min-w-0">
-                    <h4 className="text-md font-bold text-gray-900 truncate dark:text-white">
+                    <h4 className="text-lg md:text-md font-bold text-gray-900 truncate dark:text-white">
                       {li.name}
                     </h4>
                     <ul className="ml-6 list-disc">
                       {li.stuff.map((item) => (
                         <li
                           key={item}
-                          className="text-sm text-gray-500  dark:text-gray-400"
+                          className="text-md md:text-sm text-gray-500  dark:text-gray-400"
                         >
                           {item}
                         </li>
