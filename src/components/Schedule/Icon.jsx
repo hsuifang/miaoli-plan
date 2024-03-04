@@ -20,8 +20,6 @@ const Icon = ({ name }) => {
     view,
     seafood,
     house,
-    bicycle,
-    beach,
     railway,
   };
   return list[name] && <img src={list[name]} alt="icon" />;

@@ -1,8 +1,7 @@
-import React from "react";
 import data from "./schedule.json";
 import Schedule from "@/components/Schedule";
 import MainImage from "@/assets/main.png";
-// import MapImage from "@/components/MapImage";
+import PostCard from "@/components/Postcard/PostCard";
 
 const Home = () => {
   const info = data.reduce((acc, cur) => {
@@ -14,18 +13,10 @@ const Home = () => {
   }, {});
   return (
     <div data-testid="home" className="md:flex md:space-x-8">
-      {/* image */}
-      {/* vertical timeTree */}
       <div className="hidden md:flex  md:w-[40%]">
-        <div className="shadow-md p-3 bg-primary/50 rounded-lg flex flex-col space-y-3">
-          <img src={MainImage} alt="MainImage" className="rounded-lg" />
-          {/* <MapImage /> */}
-          <p className="grow text-white rounded-lg grid place-content-center italic font-serif tracking-widest font-semibold">
-            Longphant - 媽媽說鼻子長才會漂亮
-          </p>
-        </div>
+        <PostCard imgUrl={MainImage} text="2024 協尋大狗狗" />
       </div>
-      <div className="md:h-[80vh] w-full md:w-[60%] md:overflow-y-auto">
+      <div className="md:h-[80vh] w-full md:w-[60%] md:overflow-y-auto mb-20 md:mb-0">
         {Object.entries(info).map(([key, value], index) => (
           <Schedule
             key={key}
