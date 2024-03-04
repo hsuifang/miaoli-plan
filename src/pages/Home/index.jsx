@@ -13,7 +13,7 @@ const Home = () => {
   }, {});
   return (
     <div data-testid="home" className="md:flex md:space-x-8">
-      <div className="hidden md:flex  md:w-[40%]">
+      <div className="hidden md:flex md:w-[40%] h-full">
         <PostCard imgUrl={MainImage} text="2024 協尋大狗狗" />
       </div>
       <div className="md:h-[80vh] w-full md:w-[60%] md:overflow-y-auto mb-20 md:mb-0">
