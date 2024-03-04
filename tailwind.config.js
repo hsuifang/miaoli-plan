@@ -8,7 +8,6 @@ export default {
       },
       fontFamily: {
         sans: ["Graphik", "sans-serif"],
-        serif: ["serif"],
       },
     },
   },

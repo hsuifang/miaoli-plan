@@ -1,5 +1,6 @@
 import { Routes, Route, Outlet } from "react-router-dom";
 import Home from "@/pages/Home/index.jsx";
+import Attention from "@/pages/Attention/Attention";
 // import Footer from "@/components/Footer/index.jsx";
 import Navigation from "@/components/Navigation";
 
@@ -20,7 +21,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="about" element={<div>asdf</div>} />
+        <Route path="attention" element={<Attention />} />
       </Route>
     </Routes>
   );

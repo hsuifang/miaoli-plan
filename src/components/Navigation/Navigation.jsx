@@ -19,7 +19,7 @@ const Navigation = () => {
               <Link to={"/"}>行程表</Link>
             </li>
             <li className="px-5 text-primary tracking-widest font-semibold">
-              <Link to={"/"}>注意事項</Link>
+              <Link to={"/attention"}>注意事項</Link>
             </li>
           </ul>
         </nav>

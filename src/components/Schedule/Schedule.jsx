@@ -36,7 +36,7 @@ const ScheduleItem = ({
         <h3 className="font-mono font-bold text-lg">{title}</h3>
       </div>
     </div>
-    <div className="ml-8 sm:ml-14 md:ml-44 flex items-end border-t-2 p-2">
+    <div className="ml-8 sm:ml-14 md:ml-44 flex flex-col md:flex-row md:items-end border-t-2 p-2">
       {content.length > 0 && (
         <ul className="flex-grow bg-white px-4 rounded border-slate-200 ml-5 ">
           {content.map((item) => (
@@ -46,13 +46,13 @@ const ScheduleItem = ({
           ))}
         </ul>
       )}
-      <ul className="flex space-x-2">
+      <ul className="flex space-x-2 justify-end md:justify-start">
         {tags.map((tag) => (
           <li
             key={tag}
-            className="text-sm bg-yellow-200 text-gray-600 rounded px-2"
+            className="text-sm bg-yellow-200 text-gray-600 px-2 rounded-full"
           >
-            <Tag name={tag} />
+            <p>{tag}</p>
           </li>
         ))}
       </ul>
@@ -61,7 +61,7 @@ const ScheduleItem = ({
 );
 const Schedule = ({ title, lists = [] }) => {
   return (
-    <div className="mb-20 md:mb-0">
+    <div>
       <div className="sticky top-0 bg-white z-10 border-b border-primary md:border-transparent">
         <h2 className="inline-block font-serif text-4xl py-2 px-2 md:px-0 md:mb-4 bg-gradient-to-b md:pl-4 md:border-l-8 md:border-primary/30 md:border-dashed">
           {title}
