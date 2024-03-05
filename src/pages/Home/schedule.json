@@ -22,7 +22,7 @@
     "date": "0309",
     "title": "秋茂園",
     "tags": ["景點", "經典"],
-    "content": ["hsuifang 小時候的回憶", "苗栗迪士尼"],
+    "content": ["聽說小時候的去很多次", "堪稱苗栗迪士尼，你得信！"],
     "startTime": "12:30",
     "endTime": "14:00",
     "icon": "view"
@@ -32,7 +32,7 @@
     "date": "0309",
     "title": "通宵神社",
     "tags": ["景點"],
-    "content": ["看海景", "看地方神社"],
+    "content": ["看海景", "看在地神社"],
     "startTime": "14:10",
     "endTime": "15:30",
     "icon": "tample2"
@@ -52,7 +52,7 @@
     "date": "0309",
     "title": "阿水飯店/福興/龍鳳漁港",
     "tags": ["吃"],
-    "content": ["p醬要暫離", "可以外帶去Airbnb或內用"],
+    "content": ["可以外帶去Airbnb或內用"],
     "startTime": "18:30",
     "icon": "seafood"
   },
@@ -69,9 +69,9 @@
     "id": 8,
     "date": "0310",
     "title": "Airbnb",
-    "tags": ["住", "吃"],
-    "content": ["從Airbnb起床"],
-    "startTime": "10:00",
+    "tags": ["住"],
+    "content": ["從Airbnb起床退房"],
+    "startTime": "11:00",
     "icon": "house"
   },
   {
@@ -80,24 +80,24 @@
     "title": "竹南火車站/豐富火車站",
     "tags": ["行"],
     "content": ["到豐富寄放行李在高鐵", "租 UBIKE"],
-    "startTime": "10:30",
-    "endTime": "10:45",
+    "startTime": "11:30",
+    "endTime": "11:45",
     "icon": "train"
   },
   {
     "id": 11,
     "date": "0310",
     "title": "後龍街上",
-    "tags": ["住", "吃"],
+    "tags": ["吃"],
     "content": ["隨意吃吃", "我想吃素食麵", "美而美也很好吃", "看市場"],
-    "startTime": "11:20",
+    "startTime": "12:00",
     "icon": "bicycle"
   },
   {
     "id": 12,
     "date": "0310",
     "title": "後龍",
-    "tags": ["住", "吃"],
+    "tags": ["景點", "吃"],
     "content": [
       "騎腳踏車徜徉後龍",
       "去武德宮讓我燒東西",
@@ -107,7 +107,7 @@
       "吃蚵嗲",
       "地主臨機應變... "
     ],
-    "startTime": "12:00",
+    "startTime": "13:00",
     "endTime": "16:00",
     "icon": "beach"
   },
@@ -116,7 +116,7 @@
     "date": "0310",
     "title": "晚餐",
     "tags": ["吃"],
-    "content": ["我思考一下要在哪裡吃東西"],
+    "content": ["我思考一下要在哪裡吃東西", "當驚喜吧！"],
     "startTime": "16:00",
     "endTime": "18:00",
     "icon": "bicycle"
