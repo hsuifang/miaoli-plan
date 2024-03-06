@@ -15,19 +15,19 @@ const List = [
     desc: "katia",
     name: "寶貝/ Katia",
     avator: Avator2,
-    stuff: ["拍立得", "底片"],
+    stuff: ["拍立得", "底片", "野餐墊"],
   },
   {
     desc: "laura",
     name: "荷老師/ Laura",
     avator: Avator3,
-    stuff: ["紅酒", "野餐墊?"],
+    stuff: ["某個好東西 :)"],
   },
   {
     desc: "chris",
     name: "簡大師/ Chris",
     avator: Avator4,
-    stuff: ["桌遊", "Boss?"],
+    stuff: ["桌遊", "Bose"],
   },
 ];
 
@@ -37,7 +37,7 @@ const Attention = () => {
       data-testid="attention"
       className="p-3 md:p-0 flex flex-col md:flex-row md:space-x-8"
     >
-      <div className="md:w-[60%] order-2 md:order-1 md:max-h-[80vh]">
+      <div className="md:w-[60%] order-2 md:order-1 md:max-h-[80vh] md:overflow-y-auto">
         <Gallery />
       </div>
       <div className="md:w-[40%] order-1 md:order-2 shadow-inner p-5 rounded-md bg-gray-50 dark:bg-gray-800 dark:text-white">
